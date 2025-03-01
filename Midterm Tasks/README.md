@@ -6,3 +6,6 @@ For this task we are given a Flat data from Excel (See rawfile) and we are Task 
 
 ## STEP 2 Normalization
 ![screenshot](image/normalization.png)
+
+## STEP 3 Cleaneddata
+![screenshot](image/cleaneddata.png)
