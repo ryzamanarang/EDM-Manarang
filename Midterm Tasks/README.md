@@ -3,3 +3,6 @@ For this task we are given a Flat data from Excel (See rawfile) and we are Task 
 
 ## STEP 1 Screenshot of raw data
 ![screenshot](image/RAW.png)
+
+## STEP 2 Normalization
+![screenshot](image/normalization.png)
