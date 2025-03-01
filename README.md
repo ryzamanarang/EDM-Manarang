@@ -11,3 +11,4 @@ Junior High School & Elementary: Malabanias Integrated School
 
 ## My Projects
 -Midterm Lab Task 1: 
+[Data Cleaning and Preperation](Midterm%20Tasks/README.md)
