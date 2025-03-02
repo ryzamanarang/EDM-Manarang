@@ -9,3 +9,6 @@ For this task we are given a Flat data from Excel (See rawfile) and we are Task 
 
 ## STEP 3 Cleaneddata
 ![screenshot](image/cleaneddata.png)
+
+## STEP 4 Data Model
+![screenshot](image/DATAMODEL.png)
