@@ -107,7 +107,7 @@ This portfolio demonstrates the process of data cleaning and preparation using P
 
 ### Here's the code proof for my cleaning of data
 
-  ![screenshot](image/DataCleaning.png)
+![screenshot](image/DataCleaning.png)
 
 
 ### Here's the screenshot of my output after I started data cleaning (see screenshot)
