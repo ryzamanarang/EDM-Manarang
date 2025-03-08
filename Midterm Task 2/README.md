@@ -98,6 +98,14 @@ This portfolio demonstrates the process of data cleaning and preparation using P
 4. Multiply values by 1000  
 5. Group rows by State Full Name and get the average for Min and Max Salary  
 
+### Step 13: View Query Dependencies  
+1. Go to View Menu → Click Dependencies  
+2. Check if all queries are correctly linked  
+
+## Here are the screenshots showcasing the table transformation process
+### Here's the screenshot of my output before I started data cleaning (see screenshot)
+
+
 
 
 
