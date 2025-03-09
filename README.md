@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # EDM-Manarang
 Compilation of EDM works
 
