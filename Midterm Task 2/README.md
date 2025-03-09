@@ -106,7 +106,6 @@ This portfolio demonstrates the process of data cleaning and preparation using P
 
 
 ### Here's the code proof for my cleaning of data
-```
 let
     Source = Excel.Workbook(File.Contents("C:\Users\COMLAB\Downloads\Book1.xlsx"), null, true),
     Uncleaned_DS_jobs_Table = Source{[Item="Uncleaned_DS_jobs",Kind="Table"]}[Data],
@@ -153,7 +152,6 @@ else [Location]),
     #"Filtered Rows3" = Table.SelectRows(#"Expanded states", each ([#"states.2-letter USPS"] <> null))
 in
     #"Filtered Rows3"
-```
 
 ### Here's the screenshot of my output after I started data cleaning (see screenshot)
 ![screenshot](image/1.png)
