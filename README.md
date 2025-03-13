@@ -11,4 +11,4 @@ I'm Ryza, an Information System College Student at City College Of Angeles
 
 ## My Projects
 - Midterm Lab Task 1: [Data Cleaning and Preperation using EXCEL](https://ryzamanarang.github.io/Midterm-Task-1/)
-- Midterm Lab Task 2: [Data Cleaning and Preperation Using POWER QUERY](https://github.com/ryzamanarang/EDM-Manarang/tree/main/Midterm%20Task%202)
+- Midterm Lab Task 2: [Data Cleaning and Preperation Using POWER QUERY](https://ryzamanarang.github.io/Midterm-Task-2/)
