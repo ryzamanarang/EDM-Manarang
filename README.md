@@ -1,3 +1,8 @@
+# Ryza Manarang
+<p align="center">
+  <img width="300" height="300" src="https://github.com/user-attachments/assets/e887bcfd-da0f-42d2-b43f-5712a7b6dd94">
+</p>
+
 # EDM-Manarang
 Compilation of EDM works
 
