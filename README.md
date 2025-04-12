@@ -24,3 +24,5 @@ I'm Ryza, an Information System College Student at City College Of Angeles
 [Creating a Database Using MySQL Workbench](https://ryzamanarang.github.io/Finals-Lab-Task-1/)
 - Finals Lab Task 2:
 [Transforming ER Model to Relational Tables](https://ryzamanarang.github.io/Finals-Lab-Task-2-/)
+- Finals Lab Task 3:
+[Table Manipulation]()
