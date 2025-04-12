@@ -25,4 +25,4 @@ I'm Ryza, an Information System College Student at City College Of Angeles
 - Finals Lab Task 2:
 [Transforming ER Model to Relational Tables](https://ryzamanarang.github.io/Finals-Lab-Task-2-/)
 - Finals Lab Task 3:
-[Table Manipulation]()
+[Table Manipulation](https://ryzamanarang.github.io/Finals-Lab-Task-3-/)
