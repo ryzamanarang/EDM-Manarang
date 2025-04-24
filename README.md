@@ -27,4 +27,4 @@ I'm Ryza, an Information System College Student at City College Of Angeles
 - Finals Lab Task 3:
 [Table Manipulation](https://ryzamanarang.github.io/Finals-Lab-Task-3-/)
 - Finals Lab Task 3-1:
-[Using MySQL Clause]()
+[Using MySQL Clause](https://ryzamanarang.github.io/Finals-Lab-Task-3-1/)
