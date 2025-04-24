@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryza Manarang - Monster High Portfolio</title>
+    <style>
+        /* Loading Animation */
+        .loader-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .loader {
+            width: 100px;
+            height: 100px;
+            border: 5px solid #ff69b4;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s linear infinite;
+        }
+
+        .skull-icon {
+            position: absolute;
+            font-size: 40px;
+            color: #ff69b4;
+            animation: pulse 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes fadeOut {
+            100% { opacity: 0; visibility: hidden; }
+        }
+
+        @keyframes backgroundScroll {
+            from { background-position: 0 0; }
+            to { background-position: -100% 0; }
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #ff69b4;
+            font-family: 'Gothic', cursive;
+            margin: 0;
+            padding: 20px;
+            background-image: url('https://64.media.tumblr.com/8e1bfaef2894951c8a9c27c00c2d5b0a/d185de70853d8ffd-61/s2048x3072_c427,28205,97650,78501/20367eeb98067695f33f4121e3a02310bd49f03e.jpg');
+            background-repeat: repeat-x;
+            animation: backgroundScroll 20s linear infinite;
+            background-size: contain;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.9);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px #ff69b4;
+            backdrop-filter: blur(5px);
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+            animation-delay: 2s;
+        }
+
+        @keyframes fadeIn {
+            100% { opacity: 1; }
+        }
+
+        /* Rest of your existing styles */
+        h1, h2 {
+            text-align: center;
+            color: #ff1493;
+            text-shadow: 2px 2px 4px #000;
+            font-family: 'Monster High', fantasy;
+        }
+
+        .profile-img {
+            border: 5px solid #ff69b4;
+            border-radius: 50%;
+            box-shadow: 0 0 15px #ff1493;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: rgba(255, 105, 180, 0.1);
+            border-radius: 8px;
+            border-left: 4px solid #ff1493;
+            transition: transform 0.3s;
+        }
+
+        li:hover {
+            transform: translateX(10px);
+            background-color: rgba(255, 105, 180, 0.2);
+        }
+
+        a {
+            color: #ff69b4;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #ff1493;
+            text-shadow: 0 0 10px #ff69b4;
+        }
+
+        .education-section, .projects-section {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: rgba(26, 26, 26, 0.8);
+            border-radius: 10px;
+            border: 2px solid #ff69b4;
+            transition: transform 0.3s;
+        }
+
+        .education-section:hover, .projects-section:hover {
+            transform: scale(1.01);
+            box-shadow: 0 0 25px rgba(255, 105, 180, 0.3);
+        }
+
+        @font-face {
+            font-family: 'Monster High';
+            src: url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+        }
+    </style>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+        <div class="skull-icon">💀</div>
+    </div>
+
+    <div class="container">
+        <h1>Ryza Manarang</h1>
+        
+        <p align="center">
+            <img class="profile-img" width="300" height="300" src="https://github.com/user-attachments/assets/e887bcfd-da0f-42d2-b43f-5712a7b6dd94">
+        </p>
+
+        <h2>EDM-Manarang</h2>
+        <p style="text-align: center;">Compilation of EDM works</p>
+
+        <div class="education-section">
+            <h2>About Me</h2>
+            <p>I'm Ryza, an Information System College Student at City College Of Angeles</p>
+
+            <h2>Education</h2>
+            <ul>
+                <li>College: City College of Angeles - Bachelors of Science in Information System</li>
+                <li>Senior High School: Malabanias Integrated School - General Academic Strand</li>
+                <li>Junior High School & Elementary: Malabanias Integrated School</li>
+            </ul>
+        </div>
+
+        <div class="projects-section">
+            <h2>My Midterm Projects</h2>
+            <ul>
+                <li><a href="https://ryzamanarang.github.io/Midterm-Task-1/">Midterm Lab Task 1: Data Cleaning and Preperation using EXCEL</a></li>
+                <li><a href="https://ryzamanarang.github.io/Midterm-Task-2/">Midterm Lab Task 2: Data Cleaning and Preperation Using POWER QUERY</a></li>
+                <li><a href="https://ryzamanarang.github.io/Midterm-Task-3/">Midterm Lab Task 3: Creating PIVOT TABLE and DASHBOARD</a></li>
+            </ul>
+
+            <h2>My Final Projects</h2>
+            <ul>
+                <li><a href="https://ryzamanarang.github.io/Finals-Lab-Task-1/">Finals Lab Task 1: Creating a Database Using MySQL Workbench</a></li>
+                <li><a href="https://ryzamanarang.github.io/Finals-Lab-Task-2-/">Finals Lab Task 2: Transforming ER Model to Relational Tables</a></li>
+                <li><a href="https://ryzamanarang.github.io/Finals-Lab-Task-3-/">Finals Lab Task 3: Table Manipulation</a></li>
+                <li><a href="https://ryzamanarang.github.io/Finals-Lab-Task-3-1/">Finals Lab Task 3-1: Using MySQL Clause</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.querySelector('.loader-wrapper').style.animation = 'fadeOut 1s ease-out forwards';
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
+
+
+
