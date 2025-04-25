@@ -54,36 +54,47 @@
             to { background-position: -100% 0; }
         }
 
+        /* Custom Bat Cursor */
         body {
+            cursor: url('https://www.cursor.cc/cursor3d/66307.png') 25 25, auto;
             background-color: #1a1a1a;
             color: #ff69b4;
             font-family: 'Gothic', cursive;
             margin: 0;
             padding: 20px;
-            background-image: url('https://64.media.tumblr.com/8e1bfaef2894951c8a9c27c00c2d5b0a/d185de70853d8ffd-61/s2048x3072_c427,28205,97650,78501/20367eeb98067695f33f4121e3a02310bd49f03e.jpg');
+            background-image: url('https://i.pinimg.com/736x/6e/23/ed/6e23edac1daba77b52caafff61a4c369.jpg');
             background-repeat: repeat-x;
             animation: backgroundScroll 20s linear infinite;
             background-size: contain;
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            background-color: rgba(0, 0, 0, 0.9);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 0 20px #ff69b4;
-            backdrop-filter: blur(5px);
-            opacity: 0;
-            animation: fadeIn 1s ease-in forwards;
-            animation-delay: 2s;
+        /* Bat Burst Animation */
+        .bat-burst {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            background-image: url('https://media.tenor.com/Npixqj3Ek1IAAAAi/sappy-seals.gif');
+            background-size: contain;
+            background-repeat: no-repeat;
+            pointer-events: none;
+            animation: burst 1.5s ease-out forwards;
+        }
+
+        @keyframes burst {
+            0% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(4);
+                opacity: 0;
+            }
         }
 
         @keyframes fadeIn {
             100% { opacity: 1; }
         }
 
-        /* Rest of your existing styles */
         h1, h2 {
             text-align: center;
             color: #ff1493;
@@ -195,14 +206,27 @@
     </div>
 
     <script>
+        // Loading screen fade out
         window.addEventListener('load', function() {
             setTimeout(function() {
                 document.querySelector('.loader-wrapper').style.animation = 'fadeOut 1s ease-out forwards';
             }, 2000);
         });
+
+        // Handle click events for bat burst animation
+        document.addEventListener('click', (e) => {
+            const burst = document.createElement('div');
+            burst.className = 'bat-burst';
+            burst.style.left = `${e.clientX - 30}px`;
+            burst.style.top = `${e.clientY - 30}px`;
+            document.body.appendChild(burst);
+
+            // Remove burst element after animation
+            setTimeout(() => {
+                burst.remove();
+            }, 1500);
+        });
     </script>
 </body>
 </html>
-
-
 
