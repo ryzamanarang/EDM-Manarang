@@ -26,7 +26,7 @@ I'm Ryza, an Information System College Student at City College Of Angeles
 [Transforming ER Model to Relational Tables](https://ryzamanarang.github.io/Finals-Lab-Task-2-/)
 - Finals Lab Task 3:
 [Table Manipulation](https://ryzamanarang.github.io/Finals-Lab-Task-3-/)
-- Finals Lab Task 3-1:
+- Finals Lab Task 4:
 [Using MySQL Clause](https://ryzamanarang.github.io/Finals-Lab-Task-3-1/)
 - Finals Lab Task 5:
 [Views, Stored Procedures and Functions](https://ryzamanarang.github.io/Finals-Lab-Task-5/)
