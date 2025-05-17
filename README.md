@@ -30,3 +30,6 @@ I'm Ryza, an Information System College Student at City College Of Angeles
 [Using MySQL Clause](https://ryzamanarang.github.io/Finals-Lab-Task-3-1/)
 - Finals Lab Task 5:
 [Views, Stored Procedures and Functions](https://ryzamanarang.github.io/Finals-Lab-Task-5/)
+- Finals Lab Task 6:
+[MongoDBCRUDi](https://ryzamanarang.github.io/Finals-Lab-Task-6/)
+
